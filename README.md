@@ -21,11 +21,16 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🗺 Front-End
 
-Foi criado uma tela simples com a utilização de Reactjs e outras bibliotecas que achei necessária para o front-end, como o toast, para mostrar de maneira mais bonita os erros, sucessos e infos.
+Foi criado uma tela simples com a utilização de Reactjs e outras bibliotecas que achei necessária para o front-end, como o axios, para conseguir estabelecer uma conexão entre o front-end e api rest que foi criada no back-end.
 
-Primeiramente, para dar inicio ao projeto do front-end, deve-se acessar a pasta web, pois utilizei o monorepo, ou seja, tudo ficou unificado em apenas um lugar, essa decisão foi tomada para facilitar e agilizar os comits e a organização das pastas, além de ser um método utilizado por grandes empresas e projetos. Após o acesso a pasta **web**
+Primeiramente, para dar inicio ao projeto do front-end, deve-se acessar a pasta web, pois utilizei o monorepo, ou seja, tudo ficou unificado em apenas um lugar, essa decisão foi tomada para facilitar e agilizar os comits e a organização das pastas, além de ser um método utilizado por grandes empresas e projetos. Após o acesso a pasta **web** deve-se carregar todos as depêndencias do projeto, para isso utilize o comando **yarn** no comand line do próprio vscode. Após tudo isso, é necessário rodar o comando **yarn start**, para subir um projeto na web, com o Ip **localhost:3000**, para ficar totalmente responsivo seu projeto.
+Fui utilizado a cor verde em quase toda a aplicação web, pois o cactus é o arbusto que eu mais me identifico, visto que é ser que dura e se adapta em qualquer ambiente, devido a essa força que ele possui eu acabei escolhendo está cor.
 
 ## 🗄 Back-End
+
+O Back-end foi criado com a tecnologia Nestjs, que é um framework do próprio Nodejs, além de um outro framework para a documentação da Api o **Swagger**. Nele não há muito contato com o usuário, pois o mesmo enviará os comandos da web para esse local, onde será processado os dados enviados para que seja retornado algo ao cliente. Nesse lugar que serão tratados os erros que acontecerem, erro este que só ocorrerá caso sejam enviados comandos o suficiente para deixar o "Robô" de fora da área demarcada, pois da web só poderão vir comandos corretos, pois apenas poderá ser digitado M, R e L, pois foi utilizado uma Regex para evitar a digitação de qualquer dado errado. Para iniciar o projeto do back-end deve ser necessário acessar a pasta **server**, digitar o comando **yarn** para baixar as depêndencias, após serem todas instaladas, e **yarn run start: dev** para rodar o projeto e iniciar o back-end de forma correta.
+
+
 
 ## 💻 Projeto
 
