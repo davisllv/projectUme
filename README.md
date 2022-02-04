@@ -21,7 +21,9 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 ## 🗺 Front-End
 
+Foi criado uma tela simples com a utilização de Reactjs e outras bibliotecas que achei necessária para o front-end, como o toast, para mostrar de maneira mais bonita os erros, sucessos e infos.
 
+Primeiramente, para dar inicio ao projeto do front-end, deve-se acessar a pasta web, pois utilizei o monorepo, ou seja, tudo ficou unificado em apenas um lugar, essa decisão foi tomada para facilitar e agilizar os comits e a organização das pastas, além de ser um método utilizado por grandes empresas e projetos. Após o acesso a pasta **web**
 
 ## 🗄 Back-End
 
