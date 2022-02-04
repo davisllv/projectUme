@@ -34,7 +34,7 @@ O Back-end foi criado com a tecnologia Nestjs, que é um framework do próprio N
 
 **⚠ WARNING**
 
-** Para trabalhar de forma correta com esse projeto, é obrigátorio rodar o front-end e o back-end JUNTOS.
+** Para trabalhar de forma correta com esse projeto, é obrigátorio rodar o front-end e o back-end JUNTOS**.
 
 
 ---
