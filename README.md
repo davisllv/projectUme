@@ -19,9 +19,11 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Typescript
 - SQLite
 
-## Front-End
+## 🗺 Front-End
 
-## Back-End
+
+
+## 🗄 Back-End
 
 ## 💻 Projeto
 
