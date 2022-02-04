@@ -32,9 +32,9 @@ O Back-end foi criado com a tecnologia Nestjs, que é um framework do próprio N
 
 
 
-## 💻 Projeto
+**⚠ WARNING**
 
-O Rocket.Q é uma aplicação de interação através de perguntas, sendo possível criar uma sala para internautas anônimos fazerem perguntas e o criador da sala em posse de uma senha gerenciar essas perguntas e marcar como lidas.
+** Para trabalhar de forma correta com esse projeto, é obrigátorio rodar o front-end e o back-end JUNTOS.
 
 
 ---
