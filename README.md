@@ -1,5 +1,5 @@
 <h1 align="center">
-  <img alt="Ume" title="UME" src="https://raw.githubusercontent.com/davisllv/projectume/7e9b987322657244d2b62f3d5d6be3f018005a78/assets/logo_ume.svg" width="220px" />
+  <img alt="Ume" title="UME" src="https://raw.githubusercontent.com/davisllv/projectume/7e9b987322657244d2b62f3d5d6be3f018005a78/assets/logo_ume.svg" width="100px" />
 </h1>
 
 <p align="center">
