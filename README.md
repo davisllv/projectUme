@@ -18,6 +18,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - Express
 - Typescript
 - SQLite
+- Prisma
 
 ## 🗺 Front-End
 
@@ -29,6 +30,10 @@ Fui utilizado a cor verde em quase toda a aplicação web, pois o cactus é o ar
 ## 🗄 Back-End
 
 O Back-end foi criado com a tecnologia Nestjs, que é um framework do próprio Nodejs, além de um outro framework para a documentação da Api o **Swagger**. Nele não há muito contato com o usuário, pois o mesmo enviará os comandos da web para esse local, onde será processado os dados enviados para que seja retornado algo ao cliente. Nesse lugar que serão tratados os erros que acontecerem, erro este que só ocorrerá caso sejam enviados comandos o suficiente para deixar o "Robô" de fora da área demarcada, pois da web só poderão vir comandos corretos, pois apenas poderá ser digitado M, R e L, pois foi utilizado uma Regex para evitar a digitação de qualquer dado errado. Para iniciar o projeto do back-end deve ser necessário acessar a pasta **server**, digitar o comando **yarn** para baixar as depêndencias, após serem todas instaladas, e **yarn run start: dev** para rodar o projeto e iniciar o back-end de forma correta, com o ip **localhost:3333**. Após ser iniciado o back-end, caso o usuário queira consumir a documentação da api com o framework **Swagger**, basta acessar **localhost:3333/ume**
+
+## 📦 SQLITE
+
+Sistema Gerenciador de Banco de Dados Relacional, foi utilizado ele, devido a sua simplicidade, a objetividade, simplicidade e velocidade em rodar em banco de dados pequenos e que possuem poucas requisões. Foi criado uma tabela chamanda **MovimentRecords** para captar todas as movimentações do robo, logo, ele armaneza a posição anterior e a posição do final do robo após o processamento do comando. O esquema utilizado foi para armanezar o id, com o tipo de um uuid, valores de x, y e a posição final anterior e valores de x, y e a posição final do valor atual.
 
 
 
