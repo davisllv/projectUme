@@ -33,7 +33,17 @@ export class MovimentService {
         }
 
         for (let i = 0; i < movimentDto.comands.length; i++) {
-
+            if (movimentDto.comands[i].toUpperCase() === "M") {
+                if (carPosition.finalPosition === "North") {
+                    carPosition.y++;
+                } else if (carPosition.finalPosition === "South") {
+                    carPosition.y--;
+                } else if (carPosition.finalPosition === "East") {
+                    carPosition.x++;
+                } else if (carPosition.finalPosition === "West") {
+                    carPosition.x--;
+                }
+            }
             if (carPosition.x < 0) {
 
                 carPosition.x = 0;
@@ -56,18 +66,6 @@ export class MovimentService {
 
                 carPosition.y = 4;
                 throw Error('You are off the limits, try to reset')
-            }
-
-            if (movimentDto.comands[i].toUpperCase() === "M") {
-                if (carPosition.finalPosition === "North") {
-                    carPosition.y++;
-                } else if (carPosition.finalPosition === "South") {
-                    carPosition.y--;
-                } else if (carPosition.finalPosition === "East") {
-                    carPosition.x++;
-                } else if (carPosition.finalPosition === "West") {
-                    carPosition.x--;
-                }
             }
             if (movimentDto.comands[i].toUpperCase() === "R") {
                 if (carPosition.finalPosition === "North") {
